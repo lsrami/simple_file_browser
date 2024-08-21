@@ -8,7 +8,7 @@ app.config['BOOTSTRAP_SERVE_LOCAL'] = True
 ROOT_DIRECTORY = "./"
 
 # 定义要显示的文件夹列表
-VISIBLE_FOLDERS = ["", "exp_sherpa_onnx_stream", "exp_sherpa_onnx", "其他目录"]  # 修改为你想显示的文件夹名称
+VISIBLE_FOLDERS = ["", "dir1", "dir2", "其他目录"]  # 修改为你想显示的文件夹名称
 
 # HTML 模板
 HTML_TEMPLATE = """
@@ -43,7 +43,7 @@ HTML_TEMPLATE = """
     </div>
     <footer class="footer mt-4">
       <div class="container">
-        <p class="text-muted text-center">Copyright © 2024 timekettle all rights reserved.</p>
+        <p class="text-muted text-center">Copyright © 2024 abc all rights reserved.</p>
       </div>
     </footer>
   </body>
