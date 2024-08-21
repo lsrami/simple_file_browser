@@ -10,6 +10,7 @@ pip install -r requirements.txt
 
 ### 启动
 ```bash
+# 修改 server.py 中 ROOT_DIRECTORY 和 VISIBLE_FOLDERS 配置
 python server.py
 ```
 
