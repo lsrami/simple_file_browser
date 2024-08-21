@@ -8,7 +8,7 @@ app.config['BOOTSTRAP_SERVE_LOCAL'] = True
 ROOT_DIRECTORY = "./"
 
 # 定义要显示的文件夹列表
-VISIBLE_FOLDERS = ["", "dir1", "dir2", "其他目录"]  # 修改为你想显示的文件夹名称
+VISIBLE_FOLDERS = ["", "dir1", "dir2", "其他目录"]  # 第一项必须为空字符串
 
 # HTML 模板
 HTML_TEMPLATE = """
